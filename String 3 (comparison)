@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+const char name[8] = "kanishka";
+
+if (strncmp(name, "kanishka", 8) == 0) {
+    printf("Hello, Kanishka!\n");
+} else {
+    printf("You are not Kanishka. Go away.\n");
+}
+return 0;
+}
