@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+char name = "Kanishka";
+int age = 17;
+
+/* prints out 'Kanishka is 17 years old.' */
+printf("%s is %d years old.\n", name, age);
